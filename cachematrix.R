@@ -19,8 +19,8 @@ makeCacheMatrix  <- function( myMatrix = matrix() ){
   
   myInverse <- NULL
   
-  setMatrix <- function(setMatrix) {
-    myMatrix  <<- setMatrix
+  setMatrix <- function(argMatrix) {
+    myMatrix  <<- argMatrix
     myInverse <<- NULL
   }
   
